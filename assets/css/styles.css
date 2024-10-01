@@ -1,66 +1,162 @@
 /*=============================================
-=            Latest Release Section            =
+=            Popular Artists Section            =
+=============================================*/
+.popular-artist {
+  flex-basis: 33%;
+  margin-bottom: 1rem;
+}
+
+.popular-artist .image-container {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 8rem;
+  height: 8rem;
+  margin-right: 0;
+}
+.popular-artist .image-container img {
+  border-radius: 50%;
+}
+.popular-artist .name {
+  width: 8rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/*=====  End of Popular Artists  ======*/
+
+/*=============================================
+=            Catefories Section            =
 =============================================*/
 
-.latest-artist {
-  flex-basis: 100%;
-  margin-bottom: 1rem;
-  justify-content: space-between;
-  position: relative;
+#categories .section-container {
+  background-color: #101642;
+  padding: 1rem;
+  border-radius: 5px;
+  justify-content: center;
 }
-.latest-artist .right {
-  flex-direction: column;
-  align-self: flex-start;
-  justify-content: space-between;
-}
-.details {
-  color: white;
-}
-.name,
-.date {
-  line-height: 2;
-}
-.name {
-  text-transform: capitalize;
-  font-size: 0.9em;
-  color: #fff;
-  font-weight: bold;
-}
-.date {
-  font-weight: 100;
-  font-size: 0.8em;
-}
-.menu-icon:hover {
-  cursor: pointer;
-}
-.latest-artist .material-icons-round {
-  margin: 0;
-  margin-left: 5px;
-}
-.length {
-  font-size: 1em;
-}
-.list {
-  list-style: none;
-}
-.list li:hover,
-.list li:focus {
-  background-color: white;
-}
-.list li a {
-  display: block;
+.stations {
+  height: 10rem;
   width: 100%;
-  text-decoration: none;
-  color: darkslategray;
-  padding: 0.5rem;
-  font-size: 12px;
-  border-bottom: 1px solid lightgray;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  background-color: #ff6701;
+  box-shadow: 0px 0px 10px 2px #00000050;
 }
-.text {
-  line-height: 24px;
+.stations .image-container {
+  margin: 0;
+  width: 4rem;
+  height: 4rem;
+}
+.category-container {
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: space-between;
+}
+.category {
+  position: relative;
+  width: 9rem;
+  height: 9rem;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+.category .image-container {
+  display: block;
+  width: 9rem;
+  height: 9rem;
+  margin-right: 0;
+}
+.category img {
+  border-radius: 50%;
+}
+.category .name {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  text-align: center;
+  z-index: 2;
+  font-size: 1.2rem;
+  text-shadow: 0px 5px 6px rgba(0, 0, 0);
+}
+.love {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(#ff577e50 0%, #ff577f50 100%);
+}
+.retro {
+  background: linear-gradient(#f0cb6550 0%, #f1ce6d50 100%);
+}
+.chill {
+  background: linear-gradient(#00d0f550, #51c2d550);
+}
+.workout {
+  background: linear-gradient(#ebd8b750 0%, #ebd8b750 100%);
+}
+.rock {
+  background: linear-gradient(#0015ff50 0%, #0015ff50 100%);
+}
+.pop {
+  background: linear-gradient(
+    rgba(255, 166, 0, 0.5) 0%,
+    rgba(255, 68, 0, 0.5) 100%
+  );
 }
 
-/*=====  End of Latest Release Section  ======*/
+/*=====  End of Catefories Section  ======*/
+.center {
+  align-self: center;
+  justify-self: center;
+}
+aside {
+  flex: 1 0;
+  display: none;
+}
+.image-container {
+  width: 6rem;
+  height: 6rem;
+  margin-right: 1rem;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.section-container {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section-title {
+  margin: 2rem 0 1rem;
+  color: white;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  line-height: 2;
+  border-bottom: 1px solid white;
+}
+/* Dropdown */
+.dropdown {
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  transition: transform 0.4s;
+  transform: scale(0);
+  transform-origin: 100% 0;
+  font-weight: normal;
+}
+.dropdown-container:focus .dropdown {
+  z-index: 100;
+  transform: scale(1);
+  text-align: left;
+}
+.dropdown-container:focus .menu-icon {
+  color: white;
+}
+
+/*=====  End of Global Styles  ======*/
 .fit-content {
   width: fit-content;
   width: -moz-fit-content;
