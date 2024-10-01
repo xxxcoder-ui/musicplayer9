@@ -227,15 +227,15 @@
         /* Three columns on desktop */
         @media screen and (min-width: 100%) {
         .song-container {
-            width: calc(33.33% - 20px);
+            width: calc(33.33% - auto);
             margin: 0 10px 20px 10px;
         }
         }
 
         /* Two columns on desktop */
-        @media screen and (min-width: 100%) and (max-width: 991px) {
+        @media screen and (min-width: 100%) and (max-width: 100%) {
         .song-container {
-            width: calc(50% - 20px);
+            width: calc(50% - auto);
             margin: 0 10px 20px 10px;
         }
         }
@@ -243,7 +243,7 @@
         /* One column on mobile */
         @media screen and (max-width: 100%) {
         .song-container {
-            width: calc(100% - 20px);
+            width: calc(100% - auto);
             margin: 0 10px 20px 10px;
         }
         }
