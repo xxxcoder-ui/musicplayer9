@@ -2,34 +2,34 @@ Privacy Policy mediaxr.netlify.app
 
 Privacy is a fundamental aspect of our online interactions, and at mediaxr.netlify.app, we take the protection of your personal information seriously. This Privacy Policy outlines the guidelines and practices we adhere to when it comes to collecting, using, and safeguarding the data shared with us by our users. Understanding the importance of transparency and security in today's digital landscape, we aim to provide clarity on how your information is handled and your rights regarding its use. By familiarizing yourself with this policy, you can make informed decisions about your privacy while engaging with our platform.
 
-<h2>1. Introduction to mediaxr.netlify.app</h2>
+1. Introduction to mediaxr.netlify.app
 Welcome to mediaxr.netlify.app, your online destination for immersive media experiences! Whether you're here for virtual reality adventures or augmented reality escapades, we're thrilled to have you on board.
 
-<h3>1.1 Purpose of the Privacy Policy</h3>
+1.1 Purpose of the Privacy Policy
 Our Privacy Policy aims to keep your data secure and ensure transparency about how we handle your information. Your privacy matters to us, and we want you to feel confident using our platform.
 
-<h3>1.2 Scope of the Policy</h3>
+1.2 Scope of the Policy
 This Privacy Policy applies to all aspects of your interactions with mediaxr.netlify.app, from browsing our content to engaging with our interactive features. We are committed to protecting your privacy across the board.
 
-<h2>2. Information Collected</h2>
-<h3>2.1 Personal Information</h3>
+2. Information Collected
+2.1 Personal Information
 When you engage with mediaxr.netlify.app, we may collect personal information such as your name, email address, and preferences. Rest assured, we handle this data with care and respect your privacy at all times.
 
-<h3>2.2 Non-Personal Information</h3>
+2.2 Non-Personal Information
 In addition to personal information, we also collect non-personal data like device information and browsing behavior. This helps us improve your experience on mediaxr.netlify.app and tailor our content to better suit your needs.
 
-<h2>3. How Information is Used</h2>
-<h3>3.1 Internal Use</h3>
+3. How Information is Used
+3.1 Internal Use
 The information we collect is primarily used for internal purposes, such as analyzing user trends and enhancing our platform's functionality. Your data helps us optimize your experience and ensure that mediaxr.netlify.app remains a top-notch destination for media enthusiasts.
 
-<h3>3.2 Communication with Users</h3>
+3.2 Communication with Users
 We may use your contact information to communicate with you about updates, promotions, and new features on mediaxr.netlify.app. Don't worry, we won't spam your inbox – we'll only reach out with information we think you'll find valuable.
 
-<h2>4. Data Security Measures</h2>
-<h3>4.1 Encryption Protocols</h3>
+4. Data Security Measures
+4.1 Encryption Protocols
 To safeguard your information, we employ robust encryption protocols to keep your data secure from unauthorized access. Your privacy is paramount, and we take every measure to protect your data from prying eyes.
 
-<h3>4.2 Access Controls</h3>
+4.2 Access Controls
 Additionally, we have stringent access controls in place to restrict data access to authorized personnel only. Your information is handled with care, and we ensure that only those who need to interact with your data for operational purposes have access to it.**5. Third-Party Sharing**
 
 When it comes to sharing your information with others, we believe in being as clear as a freshly cleaned window. Here's how we handle that:
@@ -78,8 +78,8 @@ If we make any significant changes to our Privacy Policy, we'll shout it from th
 
 Our Privacy Policy isn't set in stone - it might change from time to time. The effective date will let you know when the latest version came boogie-ing into existence.In conclusion, our commitment to safeguarding your privacy remains unwavering. We value the trust you place in us by sharing your information, and we strive to uphold the highest standards of data protection. Should you have any questions or concerns regarding our Privacy Policy at mediaxr.netlify.app, please do not hesitate to reach out to us. Thank you for taking the time to review this document and for being a part of our online community.
 
-<h2>FAQ</h2>
-<h3>1. What information does mediaxr.netlify.app collect from users?</h3>
-<h3>2. How is the collected information used by mediaxr.netlify.app?</h3>
-<h3>3. Are cookies used on mediaxr.netlify.app, and how can they be managed?</h3>
-<h3>4. How can users exercise their rights regarding their personal data under the Privacy Policy?</h3>
+FAQ
+1. What information does mediaxr.netlify.app collect from users?
+2. How is the collected information used by mediaxr.netlify.app?
+3. Are cookies used on mediaxr.netlify.app, and how can they be managed?
+4. How can users exercise their rights regarding their personal data under the Privacy Policy?
