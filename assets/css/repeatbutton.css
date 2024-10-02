@@ -23,7 +23,7 @@
       cursor: pointer;
       height: 30px;
       width: 30px;
-      background: url('1.jpg)
+      background: url('1.jpg')
       5px center no-repeat;
       background-size: 24px;
       background-position: center;
@@ -32,7 +32,7 @@
       margin-top: -3px;
   }
   .icon-repeat-again {
-      background-image: url('1.jpg)
+      background-image: url('1.jpg')
       margin-left: unset;
       margin-top: unset;
       background-size: 22px;
