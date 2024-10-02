@@ -172,7 +172,7 @@ a.nav-link {
 }
 
 .header-dark h1 {
-  color: #fff;
+  color: #DC7ABA;
   font-family: 'JetBrains Mono', monospace;
   font-size: 40px;
   padding-top: 60px;
@@ -180,14 +180,14 @@ a.nav-link {
 
 /* Highlight Clean */
 .highlight-clean {
-  color: #F9DCED;
-  background-color: #F9DCED;
+  color: #DC7ABA;
+  background-color: #DC7ABA;
   padding: 50px 0;
   font-family: 'JetBrains Mono', monospace;
 }
 
 .highlight-clean p {
-  color: #7d8285;
+  color: #DC7ABA;
 }
 
 .highlight-clean h2 {
@@ -223,7 +223,7 @@ a.nav-link {
   letter-spacing: 0.4px;
   line-height: 1;
   outline: none;
-  background-color: #ddd;
+  background-color: #DC7ABA;
 }
 
 .highlight-clean .buttons .btn:hover {
@@ -235,7 +235,7 @@ a.nav-link {
 }
 
 .highlight-clean .buttons .btn-primary {
-  background-color: #C5ECFB;
+  background-color: #DC7ABA;
   color: #fff;
 }
 
