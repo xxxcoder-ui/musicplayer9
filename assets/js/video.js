@@ -28,7 +28,6 @@ jQuery(document).ready(function($) {
     autoScaleSliderWidth: 960,     
     autoScaleSliderHeight: 450,
 
-    /* size of all images http://help.dimsemenov.com/kb/royalslider-jquery-plugin-faq/adding-width-and-height-properties-to-images */
     imgWidth: 640,
     imgHeight: 360
 
