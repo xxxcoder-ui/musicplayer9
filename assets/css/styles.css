@@ -154,11 +154,11 @@ aside {
   margin-bottom: 20px;border-bottom-right-radius: 30px;border: 2px solid var(--gray);border-bottom-style: solid;border-top-left-radius: 30px;
 }
 audio::-webkit-media-controls-panel {
-  background-color: #ff9f44af;
+  background-color: #F5DBF4;
 }
 
 a.nav-link {
-  color: #f58723;
+  color: #F5DBF4;
 }
 
 .footer-basic {
@@ -181,7 +181,7 @@ a.nav-link {
 /* Highlight Clean */
 .highlight-clean {
   color: #F9DCED;
-  background-color: #fff;
+  background-color: #F9DCED;
   padding: 50px 0;
   font-family: 'JetBrains Mono', monospace;
 }
