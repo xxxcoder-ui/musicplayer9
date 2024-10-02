@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/slide.css">
+    <link rel="stylesheet" href="assets/css/repeatbutton.css">
     <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 </head>
@@ -232,6 +233,11 @@
             </div>
             <div class="col fit-content" style="padding: 0px;">
                 <div style="max-height: 24px;max-width: 95%;word-wrap: normal; padding-left: 20px;"><span id="player-name">Song</span><span><br></span><span id="player-album">Album</span></div><br>
+                <!-- repeat button--->
+  <div class="repeat-button">
+    <div id="repeat" class="icon-repeat" repeat="0"></div>
+  </div>
+</div>
                 <audio id="player" controls="controls" controlsList="nodownload" style="width: 100%;height: 70px; padding-left: 20px; padding-top:5px;">
                     <source id="audioSource" src=""></source>
                     Your browser does not support the audio format.
@@ -240,7 +246,7 @@
         </div>
     </div>
     <!-- floating downloader popup -->
-    <div class=”float-button” style="width:5px; height:5px; border-radius:1%; background-color:; box-shadow: 0 0 10px ; cursor:pointer; position:fixed; top:50px; left:1px; z-index:9999;">
+    <div class=”float-button” style="width:5px; height:5px; border-radius:1%; background-color: linear-gradient(#ff577e50 0%, #ff577f50 100%); box-shadow: 0 0 10px ; cursor:pointer; position:fixed; top:50px; left:1px; z-index:9999;">
     <!-- download icon -->
     <a href="javascript:void(0);" class="btn btn-primary" id="mpopupLink">
     <img src="download.png">
@@ -385,6 +391,7 @@
     <script src="assets/js/functions.js"></script>
     <script src="assets/js/saavn-search.js"></script>
     <script src="assets/js/slide.js"></script>
+    <script src="assets/js/repeatbutton.js"></script>
 </body>
 
 </html>
