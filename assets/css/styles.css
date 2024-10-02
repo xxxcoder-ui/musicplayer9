@@ -1,30 +1,4 @@
 /*=============================================
-=            Popular Artists Section            =
-=============================================*/
-.popular-artist {
-  flex-basis: 33%;
-  margin-bottom: 1px;
-}
-
-.popular-artist .image-container {
-  border-radius: 50%;
-  overflow: hidden;
-  width: 8px;
-  height: 8px;
-  margin-right: 0;
-}
-.popular-artist .image-container img {
-  border-radius: 50%;
-}
-.popular-artist .name {
-  width: 8px;
-  text-align: center;
-  text-transform: capitalize;
-}
-
-/*=====  End of Popular Artists  ======*/
-
-/*=============================================
 =            Catefories Section            =
 =============================================*/
 
@@ -150,7 +124,7 @@ aside {
 .dropdown-container:focus .dropdown {
   z-index: 100;
   transform: scale(1);
-  text-align: left;
+  text-align: right;
 }
 .dropdown-container:focus .menu-icon {
   color: white;
@@ -165,13 +139,13 @@ aside {
 #audio-player {
   right: 0px;
   left: 0px;
-  position: fixed;
+  position: top;
   bottom: 0px;
-  padding: 20px;
+  padding: 100px;
   font-family: 'JetBrains Mono', monospace;
 }
 .song-image {
-  width: 110px;border-top-left-radius: 30px;height: 114px;
+  width: 100px;border-top-left-radius: 30px;height: 110px;
 }
 .song-text {
   margin: 0px;color: rgb(172,248,159);max-width: 100%;
@@ -274,13 +248,13 @@ a.nav-link {
   color: #fff;
   border: 0;
   border-radius: 5px;
-  padding: 10px;
+  padding: 5px;
 }
 
 footer {
   color: rgba(255, 255, 255, 0.753);
   font-family: 'JetBrains Mono', monospace;
-  font-size: 12px;
+  font-size: 15px;
 }
 .error {
  margin : 20px;
