@@ -139,9 +139,9 @@ aside {
 #audio-player {
   right: 0px;
   left: 0px;
-  position: top;
+  position: fixed;
   bottom: 0px;
-  padding: 100px;
+  padding: 0px;
   font-family: 'JetBrains Mono', monospace;
 }
 .song-image {
@@ -180,7 +180,7 @@ a.nav-link {
 
 /* Highlight Clean */
 .highlight-clean {
-  color: #313437;
+  color: #F9DCED;
   background-color: #fff;
   padding: 50px 0;
   font-family: 'JetBrains Mono', monospace;
@@ -235,7 +235,7 @@ a.nav-link {
 }
 
 .highlight-clean .buttons .btn-primary {
-  background-color: #055ada;
+  background-color: #C5ECFB;
   color: #fff;
 }
 
