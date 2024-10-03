@@ -12,6 +12,7 @@
     <script src="assets/js/linkedin.js"></script>
     <script src="assets/js/pinterest.js"></script>
     <script src="asets/js/jquery.sharrre.js"></script>
+    <script src="asets/js/demo1.js"></script>
     <link rel="stylesheet" href="assets/css/share.css">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css">
@@ -396,58 +397,7 @@
     <script src="assets/js/saavn-search.js"></script>
     <script src="assets/js/slide.js"></script>
 
-    <script>
-    $(function () {
-        $('h1').each(function () {
-            $this = $(this);
-            $this.append("<a class='show-source'>Show source</a>");
-        });
-
-        $(document).on('click', '.show-source', function () {
-            $this = $(this);
-            $script = $this.parent().prev("script");
-            $this.parent().append("<div class='source'>" + $script.html() + "</div>");
-            $this.remove();
-        });
-    });
-
-</script>
-
-<script>
-    $(function () {
-        $('#demo1').sharrre({
-            share: {
-                googlePlus: true,
-                facebook: true,
-                twitter: false,
-                delicious: false,
-                stumbleupon: false,
-                linkedin: true,
-                pinterest: true,
-                tumblr: false,
-                reddit: false
-            },
-            buttons: {
-                facebook: {},
-                googlePlus: {
-                    hashtags: "ShareMe"
-                },
-                linkedin: {},
-                pinterest: {}
-            },
-            hover: function (api, options) {
-                $(api.element).find('.buttons').show();
-            },
-            hide: function (api, options) {
-                $(api.element).find('.buttons').hide();
-            },
-            url: '#'
-        });
-    });
-</script>
-                <h1>Share</h1>
-
-<div id="demo1" class="clearfix"></div>
+    <div id="demo1" data-title="share" data-url="#" ></div>
 </body>
 
 </html>
