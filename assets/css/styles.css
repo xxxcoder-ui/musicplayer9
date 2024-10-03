@@ -132,7 +132,7 @@ aside {
 
 /*=====  End of Global Styles  ======*/
 .fit-content {
-  width: fit-content;
+  width: responsive;
   width: -moz-fit-content;
 }
 
