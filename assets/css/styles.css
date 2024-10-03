@@ -141,11 +141,11 @@ aside {
   left: 0px;
   position: fixed;
   bottom: 0px;
-  padding: 100px;
+  padding: 50px;
   font-family: 'JetBrains Mono', monospace;
 }
 .song-image {
-  width: 70px;border-top-left-radius: 5px;height: 150px;
+  width: 50px;border-top-left-radius: 5px;height: 100px;
 }
 .song-text {
   margin: 0px;color: rgb(172,248,159);max-width: 100%;
@@ -162,7 +162,7 @@ a.nav-link {
 }
 
 .footer-basic {
-  padding: 40px 0;
+  padding: 20px 0;
   background-color: #ffffff;
   color: #4b4c4d;
 }
@@ -174,15 +174,15 @@ a.nav-link {
 .header-dark h1 {
   color: #DC7ABA;
   font-family: 'JetBrains Mono', monospace;
-  font-size: 40px;
-  padding-top: 60px;
+  font-size: 20px;
+  padding-top: 40px;
 }
 
 /* Highlight Clean */
 .highlight-clean {
   color: #DC7ABA;
   background-color: #DC7ABA;
-  padding: 50px 0;
+  padding: 30px 0;
   font-family: 'JetBrains Mono', monospace;
 }
 
