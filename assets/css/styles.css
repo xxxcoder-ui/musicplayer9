@@ -87,7 +87,7 @@
   justify-self: center;
 }
 aside {
-  flex: 1 0;
+  flex: 0 0;
   display: none;
 }
 .image-container {
@@ -141,11 +141,11 @@ aside {
   left: 0px;
   position: fixed;
   bottom: 0px;
-  padding: 200px;
+  padding: 100px;
   font-family: 'JetBrains Mono', monospace;
 }
 .song-image {
-  width: 95px;border-top-left-radius: 5px;height: 200px;
+  width: 70px;border-top-left-radius: 5px;height: 150px;
 }
 .song-text {
   margin: 0px;color: rgb(172,248,159);max-width: 100%;
@@ -219,7 +219,7 @@ a.nav-link {
   opacity: 0.9;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 10px;
   letter-spacing: 0.4px;
   line-height: 1;
   outline: none;
@@ -254,7 +254,7 @@ a.nav-link {
 footer {
   color: rgba(255, 255, 255, 0.753);
   font-family: 'JetBrains Mono', monospace;
-  font-size: 15px;
+  font-size: 10px;
 }
 .error {
  margin : 20px;
