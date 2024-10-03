@@ -9,45 +9,45 @@
   justify-content: center;
 }
 .stations {
-  height: 10rem;
+  height: 10px;
   width: 100%;
   flex-direction: column;
   padding: 10px;
   border-radius: 10px;
-  margin-bottom: 1rem;
+  margin-bottom: 1px;
   background: -moz-linear-gradient(90deg, hsla(191, 88%, 81%, 1) 0%, hsla(260, 72%, 82%, 1) 50%, hsla(247, 73%, 69%, 1) 100%);
   box-shadow: 0px 0px 10px 2px #00000050;
 }
 .stations .image-container {
   margin: 0;
-  width: 4rem;
-  height: 4rem;
+  width: 4px;
+  height: 4px;
 }
 .category-container {
   flex-wrap: wrap;
-  width: 80%;
+  width: 100%;
   justify-content: space-between;
 }
 .category {
   position: relative;
-  width: 9rem;
-  height: 9rem;
+  width: 9px;
+  height: 9px;
   overflow: hidden;
   border-radius: 50%;
-  margin-bottom: 1rem;
-  margin-right: 1rem;
+  margin-bottom: 1px;
+  margin-right: 1px;
 }
 .category .image-container {
   display: block;
-  width: 9rem;
-  height: 9rem;
+  width: 9px;
+  height: 9px;
   margin-right: 0;
 }
 .category img {
   border-radius: 50%;
 }
 .category .name {
-  position: absolute;
+  position: center;
   width: 100%;
   height: 100%;
   top: 0;
@@ -55,7 +55,7 @@
   border-radius: 50%;
   text-align: center;
   z-index: 2;
-  font-size: 1.2rem;
+  font-size: 3px;
   text-shadow: 0px 5px 6px rgba(0, 0, 0);
 }
 .love {
@@ -91,9 +91,9 @@ aside {
   display: none;
 }
 .image-container {
-  width: 6rem;
-  height: 6rem;
-  margin-right: 1rem;
+  width: 6px;
+  height: 6px;
+  margin-right: 1px;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -102,11 +102,11 @@ aside {
   justify-content: space-between;
 }
 .section-title {
-  margin: 2rem 0 1rem;
+  margin: 2px 0 1px;
   color: white;
   font-weight: 400;
   text-transform: capitalize;
-  font-size: 1.3rem;
+  font-size: 3px;
   line-height: 2;
   border-bottom: 1px solid white;
 }
@@ -141,11 +141,11 @@ aside {
   left: 0px;
   position: fixed;
   bottom: 0px;
-  padding: 230px;
+  padding: 200px;
   font-family: 'JetBrains Mono', monospace;
 }
 .song-image {
-  width: 100px;border-top-left-radius: 30px;height: 110px;
+  width: 95px;border-top-left-radius: 5px;height: 200px;
 }
 .song-text {
   margin: 0px;color: rgb(172,248,159);max-width: 100%;
