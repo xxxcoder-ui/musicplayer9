@@ -63,7 +63,7 @@ a.nav-link {
   line-height: 1.5;
   padding-top: 0;
   margin-top: 0;
-  color: #ffffff;
+  color: F5D6ED;
 }
 
 .highlight-clean .intro {
@@ -78,7 +78,7 @@ a.nav-link {
 
 .highlight-clean .buttons .btn {
   padding: 16px 32px;
-  margin: 6px;
+  margin: 5px;
   border: none;
   background: none;
   box-shadow: none;
@@ -86,7 +86,7 @@ a.nav-link {
   opacity: 0.9;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 9px;
+  font-size: 7px;
   letter-spacing: 0.4px;
   line-height: 1;
   outline: none;
