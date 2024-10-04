@@ -12,7 +12,7 @@
   font-family: 'JetBrains Mono', monospace;
 }
 .song-image {
-  width: 50px;border-top-left-radius: 5px;height: 100px;
+  width: 200px;border-top-left-radius: 5px;height: 100px;
 }
 .song-text {
   margin: 0px;color: rgb(172,248,159);max-width: 100%;
@@ -63,7 +63,7 @@ a.nav-link {
   line-height: 1.5;
   padding-top: 0;
   margin-top: 0;
-  color: inherit;
+  color: ffffff;
 }
 
 .highlight-clean .intro {
