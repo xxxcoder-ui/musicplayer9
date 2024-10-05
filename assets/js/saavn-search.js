@@ -79,7 +79,7 @@ if (bitrate_i == 4) {quality = 320} else {quality = 160;}
         track: track
     };
       results.push(`
-      <div class="text-left song-container" style="margin-bottom:20px;border-radius:10px;background-color:#1c1c1c;padding:10px;">
+      <div class="text-left song-container" style="margin-bottom:20px;border-radius:10px;background-color:#4F4F4F;padding:10px;">
       <div class="row" style="margin:auto;">
           <div class="col-auto" style="padding:0px;padding-right:0px;border-style:none;">
               <img id="${song_id}-i" class="img-fluid d-inline" style="width:115px;border-radius:5px;height:115px;padding-right:10px;" src="${song_image}" loading="lazy"/>
@@ -123,7 +123,7 @@ if(window.location.hash) {
 } else {doSaavnSearch('ramdan yoga',1,2,3,4);}
 
 addEventListener('hashchange', event => { });
-onhashchange = event => {doSaavnSearch(window.location.hash.substring(1))};
+onhashchange = event => {doSaavnSearch(window.location.hash.substring(1,2,3,4))};
 
 // If Bitrate changes, search again
 $('#saavn-bitrate').on('change', function () {
