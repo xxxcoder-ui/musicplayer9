@@ -50,8 +50,8 @@ lastSearch = decodeURI(window.location.hash.substring(1));
 for(let track of json) {
 
 
-song_name = TextAbstract(track.name,25);
-album_name = TextAbstract(track.album.name,20);
+song_name = TextAbstract(track.name,18);
+album_name = TextAbstract(track.album.name,18);
 if (track.album.name == track.name) {
     album_name = ""
 }
@@ -79,7 +79,7 @@ if (bitrate_i == 4) {quality = 320} else {quality = 160;}
         track: track
     };
       results.push(`
-      <div class="text-left song-container" style="margin-bottom:20px;border-radius:10px;background-color:#4F4F4F;padding:10px;">
+      <div class="text-left song-container" style="margin-bottom:20px;border-radius:10px;background-color:#333333;padding:10px;">
       <div class="row" style="margin:auto;">
           <div class="col-auto" style="padding:0px;padding-right:0px;border-style:none;">
               <img id="${song_id}-i" class="img-fluid d-inline" style="width:115px;border-radius:5px;height:115px;padding-right:10px;" src="${song_image}" loading="lazy"/>
@@ -119,11 +119,11 @@ function TextAbstract(text, length) {
     return text + "...";
 }
 if(window.location.hash) {
-   doSaavnSearch(window.location.hash.substring(1,2,3,4));
-} else {doSaavnSearch('ramdan yoga',1,2,3,4);}
+   doSaavnSearch(window.location.hash.substring(1));
+} else {doSaavnSearch('english',1);}
 
 addEventListener('hashchange', event => { });
-onhashchange = event => {doSaavnSearch(window.location.hash.substring(1,2,3,4))};
+onhashchange = event => {doSaavnSearch(window.location.hash.substring(1))};
 
 // If Bitrate changes, search again
 $('#saavn-bitrate').on('change', function () {
