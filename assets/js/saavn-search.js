@@ -119,7 +119,7 @@ function TextAbstract(text, length) {
     return text + "...";
 }
 if(window.location.hash) {
-   doSaavnSearch(window.location.hash.substring(1));
+   doSaavnSearch(window.location.hash.substring(1,2,3,4));
 } else {doSaavnSearch('ramdan yoga',1,2,3,4);}
 
 addEventListener('hashchange', event => { });
