@@ -120,7 +120,7 @@ function TextAbstract(text, length) {
 }
 if(window.location.hash) {
    doSaavnSearch(window.location.hash.substring(1));
-} else {doSaavnSearch('ramdan yoga',1);}
+} else {doSaavnSearch('ramdan yoga',1,2,3,4);}
 
 addEventListener('hashchange', event => { });
 onhashchange = event => {doSaavnSearch(window.location.hash.substring(1))};
