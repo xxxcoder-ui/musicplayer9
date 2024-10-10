@@ -79,7 +79,7 @@ if (bitrate_i == 4) {quality = 320} else {quality = 160;}
         track: track
     };
       results.push(`
-      <div class="text-left song-container" style="margin-bottom:20px;border-radius:10px;background-color:#333333;padding:10px;">
+      <div class="text-left song-container" style="margin-bottom:20px;border-radius:10px;background-color:linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);padding:5px;">
       <div class="row" style="margin:auto;">
           <div class="col-auto" style="padding:0px;padding-right:0px;border-style:none;">
               <img id="${song_id}-i" class="img-fluid d-inline" style="width:115px;border-radius:5px;height:115px;padding-right:10px;" src="${song_image}" loading="lazy"/>
