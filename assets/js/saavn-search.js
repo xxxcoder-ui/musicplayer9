@@ -89,8 +89,8 @@ if (bitrate_i == 4) {quality = 320} else {quality = 160;}
               <p id="${song_id}-n" class="fit-content" style="margin:0px;color:#fff;max-width:100%;">${song_name}</p>
               <p id="${song_id}-a" class="fit-content" style="margin:0px;color:#fff;max-width:100%;">${album_name}<br/></p>
               <p id="${song_id}-ar" class="fit-content" style="margin:0px;color:#fff;max-width:100%;">${song_artist}<br/></p>
-              <button class="btn btn-primary song-btn" type="button" style="margin:2px 30px;" onclick='PlayAudio("${download_url}","${song_id}")'>▶</button>
-              <button class="btn btn-primary song-btn" type="button" style="margin:2px 15px;" onclick='AddDownload("${song_id}")'>🎛️</button>
+              <button class="btn btn-primary song-btn" type="button" style="margin:0px 35px;" onclick='PlayAudio("${download_url}","${song_id}")'>▶️</button>
+              <button class="btn btn-primary song-btn" type="button" style="margin:0px 35px;" onclick='AddDownload("${song_id}")'>📤</button>
               <p class="float-right fit-content" style="margin:10px;color:linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);padding-right:10px;padding-top:10px;">${play_time}<br/></p>
           </div>
       </div>
