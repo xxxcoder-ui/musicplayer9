@@ -1,16 +1,4 @@
-body {
-    padding:10px;
-    padding-top:10px;
-    
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    font-weight: bold;
-    color:#cccccc;
 
-    text-align:center;
-    margin: 0; 
-    background-color:#efefef;
-}
 
 //Circle button
 a:hover {
