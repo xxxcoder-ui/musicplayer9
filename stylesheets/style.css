@@ -37,7 +37,7 @@ a:focus {
   display: block;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #fff;
-  width: 100%;
+  width: 90%;
   height: 1px;
   position: absolute;
   top: 50%;
@@ -161,7 +161,7 @@ a:focus {
 }
 
 .ui-slider-vertical .ui-slider-handle {
-    background: url('/images/fader_handle_vertical.png') no-repeat 100% 100%;
+    background: url('./images/fader_handle_vertical.png') no-repeat 100% 100%;
     position: absolute;
     z-index:2; 
 
@@ -177,7 +177,7 @@ a:focus {
 }
 
 .ui-slider-horizontal .ui-slider-handle {
-    background: url('/images/fader_handle_horizontal.png') no-repeat 100% 100%;
+    background: url('./images/fader_handle_horizontal.png') no-repeat 100% 100%;
     position: absolute;
     z-index:2; 
     
