@@ -72,6 +72,16 @@
             </div>
         </div>
     </header>
+                <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="jquery.firstVisitPopup.js"></script>
+		<script>
+			$(function () {
+				$('#my-welcome-message').firstVisitPopup({
+					cookieName : 'homepage',
+					showAgainSelector: '#show-message'
+				});
+			});
+        </script>
     <div> 
         <div class="tab-content">
             <div class="tab-pane active" role="tabpanel" id="tab-1">
