@@ -3,12 +3,12 @@ body {
     padding-top:10px;
     
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: bold;
     color:#cccccc;
 
     text-align:center;
-    margin: 0 auto; 
+    margin: 0; 
     background-color:#efefef;
 }
 
@@ -161,7 +161,7 @@ a:focus {
 }
 
 .ui-slider-vertical .ui-slider-handle {
-    background: url('../images/fader_handle_vertical.png') no-repeat 100% 100%;
+    background: url('.../images/fader_handle_vertical.png') no-repeat 100% 100%;
     position: absolute;
     z-index:2; 
 
@@ -177,7 +177,7 @@ a:focus {
 }
 
 .ui-slider-horizontal .ui-slider-handle {
-    background: url('../images/fader_handle_horizontal.png') no-repeat 100% 100%;
+    background: url('.../images/fader_handle_horizontal.png') no-repeat 100% 100%;
     position: absolute;
     z-index:2; 
     
