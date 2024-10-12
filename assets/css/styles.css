@@ -133,7 +133,7 @@ footer {
 }
 
 .card {
-    background-color: #232323;
+    background-color: transparent;
     width: 180px;
     border-radius: 0.5rem;
     padding: 1rem;
