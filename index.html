@@ -411,6 +411,136 @@
     <script src="assets/js/saavn-search.js"></script>
     <script src="assets/js/slide.js"></script>
 
-    
+
+
+    <!-- NIGHTMODE -->
+				<script>
+					function getDarkmode() {
+						var result = Number(getCookieValue("darkmode"));
+						if (result == 0) {
+							return false;
+						} else {
+							return true;
+						}
+					}
+					
+					function setDarkmode() {
+						if (!getDarkmode()) {
+							$("html").css("background-color", "#303030");
+							$("body").css("background-color", "#303030");
+							$("#githubButton").css("color", "#FFD034");
+							$("#darkmodeToggle").css("color", "#FFD034");
+							$("#historyButton").css("color", "#FFD034");
+							$("#timerButton").css("fill", "#FFD034");
+							$("#downloadButton").css("color", "#FFD034");
+							$("#MagicPlayer").css("border-color", "transparent");
+							document.cookie = "darkmode=" + 1 + ";" + expires + ";path=/;SameSite=Strict;Secure";
+						}
+						else {
+							$("html").css("background-color", "white");
+							$("body").css("background-color", "white");
+							$("#githubButton").css("color", "#585858");	
+							$("#darkmodeToggle").css("color", "#585858");	
+							$("#historyButton").css("color", "#585858");	
+							$("#timerButton").css("fill", "#585858");	
+							$("#downloadButton").css("color", "#585858");	
+							$("#MagicPlayer").css("border-color", "initial");
+							document.cookie = "darkmode=" + 0 + ";" + expires + ";path=/;SameSite=Strict;Secure";
+						}
+					}
+					
+					if (getDarkmode()) {
+						$("html").css("background-color", "#303030");
+						$("body").css("background-color", "#303030");
+						$("#githubButton").css("color", "#FFD034");
+						$("#darkmodeToggle").css("color", "#FFD034");
+						$("#historyButton").css("color", "#FFD034");
+						$("#timerButton").css("fill", "#FFD034");
+						$("#downloadButton").css("color", "#FFD034");
+						$("#MagicPlayer").css("border-color", "transparent");
+					}
+					
+					$("#githubButton").mouseover(function() {
+						if (getDarkmode()) {
+							$(this).css("color","white");
+						}
+						else {
+							$(this).css("color","black");
+						}	
+					}).mouseout(function() {
+						if (getDarkmode()) {
+							$(this).css("color","#FFD034");
+						}
+						else {
+							$(this).css("color","#585858");
+						}	
+					});
+					
+					$("#darkmodeToggle").mouseover(function() {
+						if (getDarkmode()) {
+							$(this).css("color","white");
+						}
+						else {
+							$(this).css("color","black");
+						}	
+					}).mouseout(function() {
+						if (getDarkmode()) {
+							$(this).css("color","#FFD034");
+						}
+						else {
+							$(this).css("color","#585858");
+						}	
+					});
+					
+					$("#historyButton").mouseover(function() {
+						if (getDarkmode()) {
+							$(this).css("color","white");
+						}
+						else {
+							$(this).css("color","black");
+						}	
+					}).mouseout(function() {
+						if (getDarkmode()) {
+							$(this).css("color","#FFD034");
+						}
+						else {
+							$(this).css("color","#585858");
+						}	
+					});
+					
+					$("#timerButton").mouseover(function() {
+						if (getDarkmode()) {
+							$(this).css("fill","white");
+						}
+						else {
+							$(this).css("fill","black");
+						}	
+					}).mouseout(function() {
+						if (getDarkmode()) {
+							$(this).css("fill","#FFD034");
+						}
+						else {
+							$(this).css("fill","#585858");
+						}	
+					});
+					
+					$("#downloadButton").mouseover(function() {
+						if (getDarkmode()) {
+							$(this).css("color","white");
+						}
+						else {
+							$(this).css("color","black");
+						}	
+					}).mouseout(function() {
+						if (getDarkmode()) {
+							$(this).css("color","#FFD034");
+						}
+						else {
+							$(this).css("color","#585858");
+						}	
+					});
+					
+				</script>
+			<!-- END NIGHTMODE -->
 </body>
 </html>
