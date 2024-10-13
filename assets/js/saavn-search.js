@@ -85,13 +85,13 @@ if (bitrate_i == 4) {quality = 320} else {quality = 160;}
               <img id="${song_id}-i" class="img-fluid d-inline" style="width:250px;border-radius:5px;height:250px;padding-right:10px;" src="${song_image}" loading="lazy"/>
           </div>
           <div class="col" style="border-style:none;padding:5px;">
-              <p class="float-right fit-content" style="margin:0px;color:#fff;padding-left:5px;background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);">${year}</p>
+              <p class="float-left fit-content" style="margin:0px;color:#fff;padding-left:5px;background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);">${year}</p>
               <p id="${song_id}-n" class="fit-content" style="margin:0px;color:#fff;max-width:100%;">${song_name}</p>
               <p id="${song_id}-a" class="fit-content" style="margin:0px;color:#fff;max-width:100%;">${album_name}<br/></p>
               <p id="${song_id}-ar" class="fit-content" style="margin:0px;color:#fff;max-width:100%;">${song_artist}<br/></p>
               <button class="btn btn-primary song-btn" type="button" style="margin:0px 5px; background:transparent;" onclick='PlayAudio("${download_url}","${song_id}")'>▶️</button>
               <button class="btn btn-primary song-btn" type="button" style="margin:0px 5px; background:transparent;" onclick='AddDownload("${song_id}")'>📤</button>
-              <p class="float-right fit-content" style="margin:0px;color:#fff;padding-left:5px;padding-top:5px;background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);">${play_time}<br/></p>
+              <p class="float-left fit-content" style="margin:0px;color:#fff;padding-left:5px;padding-top:5px;background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);">${play_time}<br/></p>
           </div>
       </div>
   </div>
