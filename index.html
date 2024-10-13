@@ -264,8 +264,23 @@
   <button onclick="document.getElementById('player').pause()">Pause</button>
   <button onclick="document.getElementById('player').volume+=0.1">Volume Up</button>
   <button onclick="document.getElementById('player').volume-=0.1">Volume Down</button>
-		    <script>
-			    .audio-player {
+  <button onclick="toggleLoop()">Toggle Loop</button>
+  <script>
+  var audio = document.getElementById('player');
+  var tracks = ['*'];
+  var currentTrackIndex = 0;
+
+  function toggleLoop() {
+    audio.loop = !audio.loop;
+  }
+  audio.addEventListener
+  ('ended', function() {
+    if (!audio.loop) {
+      currentTrackIndex = (currentTrackIndex + 1) % tracks.length;
+      playTrack(tracks[currentTrackIndex]);
+  }
+	  
+  .audio-player {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -277,7 +292,7 @@
 
 .audio-player button {
   background-color: #4CAF50;
-  border: none;
+  border: 50;
   color: white;
   padding: 10px 20px;
   text-align: center;
