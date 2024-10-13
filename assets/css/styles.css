@@ -29,8 +29,8 @@ a.nav-link {
 
 .footer-basic {
   padding: 20px 0;
-  background-color: transparent;
-  color: transparent;
+  background-color: #F5DBF4;
+  color: #F5DBF4;
 }
 
 .header-dark {
@@ -62,7 +62,7 @@ a.nav-link {
   line-height: 1.5;
   padding-top: 0;
   margin-top: 0;
-  color: F5D6ED;
+  color: #F5D6ED;
 }
 
 .highlight-clean .intro {
@@ -118,7 +118,7 @@ a.nav-link {
 }
 
 footer {
-  color: rgba(255, 255, 255, 0.753);
+  color: transparent;
   font-family: 'JetBrains Mono', monospace;
   font-size: 10px;
 }
