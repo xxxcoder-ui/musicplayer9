@@ -30,11 +30,11 @@ a.nav-link {
 .footer-basic {
   padding: 20px 0;
   background-color: transparent;
-  color: #4b4c4d;
+  color: transparent;
 }
 
 .header-dark {
-  background-size: ;
+  background-size: auto;
 }
 
 .header-dark h1 {
