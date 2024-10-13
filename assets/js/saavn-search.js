@@ -79,10 +79,10 @@ if (bitrate_i == 4) {quality = 320} else {quality = 160;}
         track: track
     };
       results.push(`
-      <div class="text-left song-container" style="margin-bottom:10px;border-radius:10px;padding:50px;background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);">
+      <div class="text-left song-container" style="margin-bottom:10px;border-radius:10px;padding:30px;background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);">
       <div class="row" style="margin:0">
           <div class="col-auto" style="padding:0px;padding-right:0px;border-style:none;">
-              <img id="${song_id}-i" class="img-fluid d-inline" style="width:200px;border-radius:5px;height:200px;padding-right:50px;" src="${song_image}" loading="lazy"/>
+              <img id="${song_id}-i" class="img-fluid d-inline" style="width:100px;border-radius:5px;height:100px;padding-right:30px;" src="${song_image}" loading="lazy"/>
           </div>
           <div class="col" style="border-style:none;padding:2px;">
               <p class="float-right fit-content" style="margin:0px;color:#fff;padding-right:100px;">${year}</p>
