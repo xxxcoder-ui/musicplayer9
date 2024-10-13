@@ -259,8 +259,39 @@
                     <source id="audioSource" src=""></source>
                     Your browser does not support the audio format.
                 </audio>
-        </div>
-    </div>
+		    <!-- playercontrols -->
+  <button onclick="document.getElementById('player').play()">Play</button>
+  <button onclick="document.getElementById('player').pause()">Pause</button>
+  <button onclick="document.getElementById('player').volume+=0.1">Volume Up</button>
+  <button onclick="document.getElementById('player').volume-=0.1">Volume Down</button>
+		    <script>
+			    .audio-player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.audio-player button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+		    </script>
+		    <!-- playercontrols -->
+		
+  </div>
 	    <!-- floating downloader popup -->
     <div class=”float-button” style="width:50px; height:300px; border-radius: 50%; background-color: transparent; box-shadow: 0 0 0px transparent; cursor:pointer; position:responsive;top:0px; right:0px; z-index:9999;">
     <!-- download icon -->
