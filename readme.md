@@ -6,8 +6,8 @@
 
 ## Live Preview
 Preview is available at the links below : <br>
-[saavn-web-ui.vercel.app](https://mediaxr.netlify.app)<br>
-[saavn.codeforkers.tk](https://saavn.codeforkers.tk)
+[ᗰOᗪIᖴIᗴᗪ](https://mediaxr.netlify.app)<br>
+[ᗰOᗪIᖴIᗴᗪ](https://saavn.codeforkers.tk)
 
 ## Details
 > Status : `In Development`<br>
