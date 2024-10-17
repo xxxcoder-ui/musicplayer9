@@ -10,7 +10,7 @@ const wavesurfer = WaveSurfer.create({
   container: '#waveform',
   waveColor: '#4F4A85',
   progressColor: '#383351',
-  url: 'audioSource',
+  url: '#',
 })
 
 wavesurfer.on('interaction', () => {
@@ -262,24 +262,6 @@ wavesurfer.on('interaction', () => {
             <div class="col-auto fit-content" style="padding: 0px;">
                 <img class="img-fluid d-inline" id="player-image" style="height: 333px;width: 333px;border-radius: 0px;" src="music.jpg" loading="lazy">
             </div>
-		<div id="waveform">
-  <!-- the waveform will be rendered here -->
-</div>
-
-<script type="module">
-import WaveSurfer from 'assets/js/wave.js'
-
-const wavesurfer = WaveSurfer.create({
-  container: '#waveform',
-  waveColor: '#4F4A85',
-  progressColor: '#383351',
-  url: '*',
-})
-
-wavesurfer.on('interaction', () => {
-  wavesurfer.play()
-})
-</script>
             <div class="col fit-content" style="padding: 10px;">
                 <div style="max-height: 100px;max-width: 100%;word-wrap: normal; padding-left: 10px;"><span id="player-name">Song</span><span><br></span><span id="player-album">Album</span></div><br>
                 <marquee>ᗰᗴᗪIᗩ ᑭᒪᗩYᗴᖇ.</marquee>
