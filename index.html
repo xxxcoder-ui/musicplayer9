@@ -1,3 +1,22 @@
+</div>
+		<div id="waveform">
+  <!-- the waveform will be rendered here -->
+</div>
+
+<script type="module">
+import WaveSurfer from 'assets/js/wave.js'
+
+const wavesurfer = WaveSurfer.create({
+  container: '#waveform',
+  waveColor: '#4F4A85',
+  progressColor: '#383351',
+  url: 'audioSource',
+})
+
+wavesurfer.on('interaction', () => {
+  wavesurfer.play()
+})
+</script>
 <div class="container">
   <div class="row">
     <div class="col-sm-12">
