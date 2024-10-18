@@ -11,7 +11,7 @@ button {
   color: #ffffff;
   font-size: 1.5vw;
   font-weight: bold;
-  vertical-align: top;
+  vertical-align: center;
 }
 
 button:hover {
