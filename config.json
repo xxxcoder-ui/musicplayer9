@@ -1,0 +1,26 @@
+config = [
+  {
+     playerIP:"http://192.168.1.1",
+     playerPort:"11000"
+  },
+   {
+      label:"RadioOnline MediaXR",
+      uri:"*;"
+   },
+   {
+      label:"MediaXR 1",
+      uri:"*;"
+   },
+   {
+      label:"MediaXR 2",
+      uri:"*"
+   },
+   {
+      label:"MediaXR 3",
+      uri:"*"
+   },
+   {
+      label:"MediaXR 4",
+      uri:"*"
+   }
+];
