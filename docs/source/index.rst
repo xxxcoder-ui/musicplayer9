@@ -1,3 +1,9 @@
+.. toctree::
+   :caption: Table of Contents
+   :titlesonly: MediaXR
+
+   foo
+   bar
 .. meta::
    :description: MediaXR
    :keywords: MediaXR, MusicMix, Music Player, Music Release
