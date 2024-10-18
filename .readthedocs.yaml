@@ -8,13 +8,8 @@ build:
     rust: "1.64"
     golang: "1.19"
 
-python:
-  install:
-    - requirements: docs/requirements.txt
-
-sphinx:
-  configuration: docs/source/conf.py
-
-formats:
-- pdf
-- epub
+  jobs:
+    post_checkout:
+      - git fetch --unshallow || true
+      - git config remote.origin.fetch '+refs/heads/*:refs/remotes/origin/*' || true
+      - git fetch --all --tags || true
