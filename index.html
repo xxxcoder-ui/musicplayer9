@@ -44,6 +44,23 @@ moesif.identifyCompany('67890', metadata, 'acmeinc.com');
     applicationId: 'eyJhcHAiOiI0OTM6MTU2NyIsInZlciI6IjIuMSIsInB1YiI6dHJ1ZSwiaWF0IjoxNzI3NzQwODAwLCJvcmciOiI0MjA6NjA0In0.7mR4C10WKXUn8lRptyNjvTcKDEK_E2ndwWVCTMwaZV8',
   });
 </script>
+
+	<script src="//unpkg.com/moesif-browser-js@v1/moesif.min.js"></script>
+<script type="text/javascript">
+  // Initialize the SDK. Must be called before any other methods
+  moesif.init({
+    applicationId: "eyJhcHAiOiI0OTM6MTU2NyIsInZlciI6IjIuMSIsInB1YiI6dHJ1ZSwiaWF0IjoxNzI3NzQwODAwLCJvcmciOiI0MjA6NjA0In0.7mR4C10WKXUn8lRptyNjvTcKDEK_E2ndwWVCTMwaZV8",
+    // add other option here
+  });
+
+  // Identify the user with Moesif such as when user logs in
+  moesif.identifyUser("67890");
+
+  // Log user actions like clicked sign up. You can also pass in custom metadata.
+  moesif.track("clicked_sign_up", {
+    button_label: "Get Started",
+  });
+</script>
 	
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=0, shrink-to-fit=yes">
