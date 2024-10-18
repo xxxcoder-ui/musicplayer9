@@ -8,7 +8,7 @@ button {
   height: 5vw;
   border-width: 0px;
   border-radius: 8px;
-  color: #c0c9cc;
+  color: #000000;
   font-size: 1.5vw;
   font-weight: bold;
   vertical-align: top;
@@ -21,7 +21,7 @@ button:hover {
 
 button:focus {
 	 background-color: #9ec8de;
-	 color: #ffffff;
+	 color: #000000;
 }
 
 .stopbutton {
@@ -35,5 +35,5 @@ button:focus {
 
 .stopbutton:focus {
 	 background-color: #0b5178;
-	 color: #cccccc;
+	 color: #000000;
 }
