@@ -20,8 +20,8 @@ button {
   margin-left: 2vw;
   margin-top: 2.4vw;
   padding: 0px;
-  width: 20vw;
-  height: 16vw;
+  width: 10vw;
+  height: 7vw;
   border-width: 0px;
   border-radius: 8px;
   color: #c0c9cc;
@@ -42,7 +42,7 @@ button:focus {
 
 .stopbutton {
   background-color: #0b5178;
-  width: 65vw;
+  width: 20vw;
   height: 8vw;
   margin-left: 13vw;
   margin-top: 3.4vw;
