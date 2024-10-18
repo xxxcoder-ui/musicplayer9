@@ -1,6 +1,6 @@
 
 button {
-  background-color: #327fa8;
+  background-color: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);
   margin-left: 2vw;
   margin-top: 2.4vw;
   padding: 0px;
