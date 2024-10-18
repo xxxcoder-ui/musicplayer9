@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/slide.css">
+    <link rel="stylesheet" href="radio.css">
     <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
   </head>
@@ -243,6 +244,60 @@
             <div class="col-auto fit-content" style="padding: 0px;">
                 <img class="img-fluid d-inline" id="player-image" style="height: 333px;width: 333px;border-radius: 0px;" src="music.jpg" loading="lazy">
             </div>
+		<!-- radio -->
+		<div>
+  <button id=stationButton_01 type="button" onclick="connect(id)">...</button>
+  <button id=stationButton_02 type="button" onclick="connect(id)">...</button>
+  <button id=stationButton_03 type="button" onclick="connect(id)">...</button>
+  <button id=stationButton_04 type="button" onclick="connect(id)">...</button>
+  <button id=stationButton_05 type="button" onclick="connect(id)">...</button>
+  <button id=stationButton_06 type="button" onclick="connect(id)">...</button>
+  <button id=stationButton_07 type="button" onclick="connect(id)">...</button>
+  <button id=stationButton_08 type="button" onclick="connect(id)">...</button>
+  <button id=stationButton_09 type="button" onclick="connect(id)">...</button>
+  <button id=stationButton_10 type="button" onclick="connect(id)">...</button>
+  <button id=stationButton_11 type="button" onclick="connect(id)">...</button>
+  <button id=stationButton_12 type="button" onclick="connect(id)">...</button>
+</div>
+
+<div>
+  <button class="stopbutton" id=stop type="button" onclick="connect(id)">Stop</button>
+</div>
+
+<script type="text/javascript" src="config.json"></script>
+<script type="text/javascript">
+
+
+buttonCount = config.length
+var i;
+for (i = 1; i < buttonCount; i++) {
+  var elid = 'stationButton_' + i.toString().padStart(2, '0')
+  document.getElementById(elid).innerHTML=config[i].label;
+}
+
+function connect(buttonId) {
+
+  if (buttonId == 'stop') {
+    var uri=config[0].playerIP + ':' + config[0].playerPort + '/Stop'
+    var connectionMsg = 'Stopped streaming';
+  } else {
+    var idx=parseInt(buttonId.slice(-2));
+    var endpoint=config[0].playerIP + ':' + config[0].playerPort + '/Play?url=';
+    var uri=endpoint + config[idx].uri;
+    var connectionMsg = 'Connected:' + config[idx].label;
+  }
+
+  fetch(uri).then(function(response) {
+    return response.json();
+    }).then(function(data) {
+    console.log(data);
+    }).catch(function() {
+    console.log(connectionMsg);
+    });
+}
+
+</script>
+		<!-- radio tag-->
             <div class="col fit-content" style="padding: 10px;">
                 <div style="max-height: 100px;max-width: 100%;word-wrap: normal; padding-left: 10px;"><span id="player-name">Song</span><span><br></span><span id="player-album">Album</span></div><br>
                 <marquee>ᗰᗴᗪIᗩ ᑭᒪᗩYᗴᖇ.</marquee>
