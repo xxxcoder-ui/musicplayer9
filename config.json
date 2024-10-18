@@ -20,7 +20,7 @@ config = [
       uri:"*"
    },
    {
-      label:"MediaXR 4",
-      uri:"*"
+      label:"MediaXR Status",
+      uri:"status.html"
    }
 ];
