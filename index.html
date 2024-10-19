@@ -251,12 +251,6 @@ li a:hover:not(.active) {
   <li><a href="#">News</a></li>
   <li><a href="#contact">Contact</a></li>
   <li><a href="#about">About</a></li>
-  <li>
-	  <audio id="player" controls="controls" controlsList="download" style="width: 90%;height: 90px; padding-left: 20px; padding-top:10px;">
-                    <source id="audioSource" src=""></source>
-                    Your browser does not support the audio format.
-                </audio>
-  </li>
 </ul>
 		    
                 <img class="img-fluid d-inline" id="player-image" style="height: 250px;width: 250px;border-radius: 0px;" src="music.jpg" loading="lazy">
@@ -324,6 +318,10 @@ function connect(buttonId) {
                             We don't serve any music on our servers.<br><br>
                             Originally by Modified.<br>
     </marquee>
+		    <audio id="player" controls="controls" controlsList="download" style="width: 90%;height: 90px; padding-left: 20px; padding-top:10px;">
+                    <source id="audioSource" src=""></source>
+                    Your browser does not support the audio format.
+                    </audio>
 
 
 		    
