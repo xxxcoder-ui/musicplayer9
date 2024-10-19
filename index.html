@@ -321,7 +321,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	use and simple.<br>🆓🆓🆓
       </marquee>
                 <img class="img-fluid d-inline" id="player-image" style="height: 300px;width: 300px;border-radius: 0px;" src="music.jpg" loading="lazy">
-		<!-- radio -->
+		<div id="headerPopup" class="mfp-hide embed-responsive embed-responsive-21by9">
+      <iframe class="embed-responsive-item" width="1600" height="940" src="https://remixr.netlify.app?autoplay=1" frameborder="50%" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+		    <!-- radio -->
 		<div>
 			<h4>༺ RadioMediaXR ༻</h4>
   <button id=stationButton_01 type="button" onclick="connect(id)">...</button>
@@ -499,20 +502,6 @@ function connect(buttonId) {
             z-index: 9999;
             display: none;
         }
-	.mpopup1 {
-            position: fixed;
-            overflow: auto;
-            overflow-x: hidden;
-            top: 333px;
-            left: 100px;
-            right: 100px;
-            bottom: 300px;
-            width: auto;
-            height: auto;
-            background-color: transparent;
-            z-index: 9999;
-            display: none;
-        }
         ul.nobullets {
   list-style-type: none; /* Remove bullets */
   padding: 0; /* Remove padding */
@@ -554,32 +543,12 @@ function connect(buttonId) {
         <div class="modal-footer" style="text-align: center;">
             <p>💗💗💗</p>
         </div>
-         <!-- Modal popup box -->
-<div id="mpopupBox1" class="mpopup1">
-    <!-- Modal content -->
-    <div class="modal-content">
-        <div class="modal-header" style="display:inline;">
-            </div> 
-        <div class="modal-body">
-		<div id="headerPopup" class="mfp-hide embed-responsive embed-responsive-21by9">
-      <iframe class="embed-responsive-item" width="1600" height="940" src="https://remixr.netlify.app?autoplay=1" frameborder="50%" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div>
-            <!-- list of songs, with a small cover art pic, name, album name -->
-            <row>
-            <ul id="download-list" class="nobullets">
-            </row>
-        </div></font>
-        <div class="modal-footer" style="text-align: center;">
-            <p>💗💗💗</p>
-        </div>
 <script>
     // Select modal
     var mpopup = document.getElementById('mpopupBox');
-    var mpopup = document.getElementById('mpopupBox1');
     
     // Select trigger link
     var mpLink = document.getElementById("mpopupLink");
-    var mpLink = document.getElementById("mpopupLink1");
     
     // Select close action element
     var close = document.getElementsByClassName("close")[0];
@@ -589,28 +558,20 @@ function connect(buttonId) {
         mpopup.style.display = "block";
     };
     
-    mpLink1.onclick = function() {
-        mpopup1.style.display = "block";
-    };
+    
     // Close modal once close element is clicked
     close.onclick = function() {
         mpopup.style.display = "none";
     };
     
-    close.onclick = function() {
-        mpopup1.style.display = "none";
-    };
+    
     // Close modal when user clicks outside of the modal box
     window.onclick = function(event) {
         if (event.target == mpopup) {
             mpopup.style.display = "none";
         }
     };
-    window.onclick = function(event) {
-        if (event.target == mpopup1) {
-            mpopup1.style.display = "none";
-        }
-    };
+    
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.bundle.min.js"></script>
