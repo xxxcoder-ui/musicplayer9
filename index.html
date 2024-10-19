@@ -160,8 +160,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </div>
         </div>
     </header>
-	
-    <div> 
         <div class="tab-content">
             <div class="tab-pane active" role="tabpanel" id="tab-1">
                 <section class="highlight-clean" style="background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);padding-top: 20px;">
@@ -178,13 +176,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             
                             <form class="text-center" action="#" method="get">
                                 <div style="width: 100%;margin: auto;padding: 3px;" placeholder="Enter Song, Artist or Album name"><input class="form-control float-left fit-content" type="text" id="saavn-search-box" style="margin: 0px;color: var(--pink-pink);max-width: 100%;width: 90%;" placeholder="Enter Name, Year, Artist"><button class="btn btn-primary" id="saavn-search-trigger" type="submit" style="text-align: center;" onclick="SaavnSearch()">💗Տᗴᗩᑕᖇᕼ ᗯITᕼ ᑎᗩᗰᗴ💗</button></div>
-                                <h1 class="text-uppercase text-center" style="color: #FFFFFF;">Results</h1>
+                                <h1 class="text-uppercase text-center" style="color: #FFFFFF;">ᖇᗴՏᑌᒪTՏ</h1>
                             </form>
                         </div>
                             <div id="saavn-results" style="margin-bottom: 10px;">
                                 <h1>Featured</h1>
                             </div>
-			    <div class="text-center" style="width:50%"><button id="loadmore" style="width: 50%;">💗ᒪOᗩᗪ ᗰOᖇᗴ💗</button></div>
+			    <div class="text-center" style="width:95%"><button id="loadmore" style="width: 95%;">💗ᒪOᗩᗪ ᗰOᖇᗴ💗</button></div>
                             <div class="button-container">
                             </div>
                             <script>
@@ -206,8 +204,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             
                         </p>
                         <div style="padding-bottom: 500px;">
-
-                        </div>
+			</div>
                     </div>
                 </section>
             </div>
@@ -336,7 +333,6 @@ function connect(buttonId) {
         #saavn-results{
         display: flex;
         flex-wrap: wrap;
-	margin:0;
 	background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);
         }
         /* Three columns on desktop */
@@ -407,7 +403,7 @@ function connect(buttonId) {
     <div class="modal-content">
         <div class="modal-header" style="display:inline;">
             <span class="close">❌🅲︎🅻︎🅾︎🆂︎🅴︎❌</span>
-            <font color="black">𝔻𝕆𝕎ℕ𝕃𝕆𝔸𝔻🐻   🐨   🐼   🦊   🦝   🐱
+            <font color="black">𝔻𝕆𝕎ℕ𝕃𝕆𝔸𝔻
         </div> 
         <div class="modal-body">
             <!-- list of songs, with a small cover art pic, name, album name -->
@@ -432,7 +428,7 @@ function connect(buttonId) {
 
                 
                 </ul></row>
-        </div></font>
+        </div>
         <div class="modal-footer" style="text-align: center;">
             <p>💗💗💗</p>
         </div>
@@ -451,12 +447,10 @@ function connect(buttonId) {
         mpopup.style.display = "block";
     };
     
-    
     // Close modal once close element is clicked
     close.onclick = function() {
         mpopup.style.display = "none";
     };
-    
     
     // Close modal when user clicks outside of the modal box
     window.onclick = function(event) {
