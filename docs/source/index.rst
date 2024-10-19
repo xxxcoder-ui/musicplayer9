@@ -12,6 +12,9 @@
 
    foo
    bar
+
+.. note::
+MediaXR
 **Digital platform for release music**
 
 With the digital landscape continually shaping the music industry, the emergence of digital platforms for releasing music has revolutionized the way artists and labels distribute their music to audiences worldwide. This article delves into the dynamic realm of digital music platforms, exploring their evolution, key features, benefits for stakeholders, and the transformative impact on the industry. From examining traditional distribution methods to forecasting future trends, this comprehensive guide navigates the intricacies of leveraging digital platforms for successful music releases in the modern era.
