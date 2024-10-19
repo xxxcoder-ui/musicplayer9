@@ -8,7 +8,7 @@
    :keywords: MediaXR, MusicMix, Music Player, Music Release
 
 .. toctree::
-   :titlesonly:
+   :titlesonly: MediaXR
 
    foo
    bar
