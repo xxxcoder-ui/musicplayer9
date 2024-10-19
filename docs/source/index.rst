@@ -1,3 +1,5 @@
+.. admonition::
+MediaXR
 .. toctree::
    :caption: Table of Contents
 
