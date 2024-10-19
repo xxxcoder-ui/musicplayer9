@@ -184,7 +184,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             <div id="saavn-results" style="margin-bottom: 10px;">
                                 <h1>Featured</h1>
                             </div>
-			    <div class="text-center" style="width:100%"><button id="loadmore" style="width: 100%;">💗ᒪOᗩᗪ ᗰOᖇᗴ💗</button></div>
+			    <div class="text-center" style="width:50%"><button id="loadmore" style="width: 50%;">💗ᒪOᗩᗪ ᗰOᖇᗴ💗</button></div>
                             <div class="button-container">
                             </div>
                             <script>
@@ -216,12 +216,48 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div id="audio-player" style="z-index: background-image: linear-gradient(to right, purple , white);width: 100%;margin: 0px;color: var(--light);backdrop-filter: blur(20px);border-top-left-radius: 0px;border-top-right-radius: 0px;">
         <div class="row" style="margin: 0px;">
             <div class="col-auto fit-content" style="padding: 0px;">
-		    <marquee direction="right" behavior="alternate" 
-        style="border:white 2px solid">
-        Free download music from various sources. to make it easier for users to find the music they are interested in.<br>
-	to download. and a music media player that is easy to<br>
-	use and simple.<br>🆓🆓🆓
-      </marquee>
+
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+<ul>
+  <li><a class="active" href="#">Home</a></li>
+  <li><a href="#">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+  <li><audio id="player" controls="controls" controlsList="download" style="width: 90%;height: 90px; padding-left: 20px; padding-top:10px;">
+                    <source id="audioSource" src=""></source>
+                    Your browser does not support the audio format.
+                </audio>
+  </li>
+</ul>
+		    
                 <img class="img-fluid d-inline" id="player-image" style="height: 250px;width: 250px;border-radius: 0px;" src="music.jpg" loading="lazy">
 		    <!-- radio -->
 		<div>
