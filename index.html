@@ -1,14 +1,3 @@
-<input class="result_btn" type="button" onclick="printDiv('mediaxr.netlify.app')" value="mediaxr.netlify.app" />
-</div>
-<script>
-	function printDiv(mediaxr.netlify.app) {
-  // let printContents = document.querySelector('.result').innerHTML;
-  // let originalContents = document.body.innerHTML;
-  // document.body.innerHTML = printContents;
-  window.print();
-  // document.body.innerHTML = originalContents;
-	}
-</script>
 <marquee direction="right" behavior="alternate" 
         style="border:white 2px solid">
 	<nav class="navbar navbar-dark navbar-expand-lg navigation-clean-search">
@@ -305,6 +294,17 @@ function connect(buttonId) {
   <a href='https://mediaxr.readthedocs.io/en/latest/?badge=latest'>
     <img src='https://readthedocs.org/projects/mediaxr/badge/?version=latest' alt='Documentation Status' />
   </a>
+		    <input class="result_btn" type="button" onclick="printDiv('content_area')" value="🖨️ Presentations" />
+</div>
+<script>
+	function printDiv(content_area) {
+  // let printContents = document.querySelector('.result').innerHTML;
+  // let originalContents = document.body.innerHTML;
+  // document.body.innerHTML = printContents;
+  window.print();
+  // document.body.innerHTML = originalContents;
+	}
+</script>
   <script>
 	  
   .audio-player {
