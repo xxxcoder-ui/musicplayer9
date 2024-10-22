@@ -23,13 +23,18 @@ MediaXR
 
 With the digital landscape continually shaping the music industry, the emergence of digital platforms for releasing music has revolutionized the way artists and labels distribute their music to audiences worldwide. This article delves into the dynamic realm of digital music platforms, exploring their evolution, key features, benefits for stakeholders, and the transformative impact on the industry. From examining traditional distribution methods to forecasting future trends, this comprehensive guide navigates the intricacies of leveraging digital platforms for successful music releases in the modern era.
 
+Here have sample review and preview for sample documentations :
+.. image:: /images/mediaxr1.jpg
+   (options)
+
 **1. Introduction to Digital Music Platforms
 Understanding the Shift to Digital
 In a world where CDs and cassettes have become relics of the past, digital music platforms have taken the stage as the new rockstars of the music industry. With the convenience of streaming services and online downloads, it's no wonder why music lovers have embraced this digital revolution with open arms.**
 
 Overview of Digital Music Platforms
 Digital music platforms are like your music-loving best friend who always has the latest tunes at their fingertips. These platforms host a vast library of songs, albums, and playlists that can be accessed anytime, anywhere, with just a few taps on your smartphone or clicks on your computer. From Spotify to Apple Music, these platforms offer a virtual stage for artists to showcase their music to a global audience.
-
+.. image:: /images/mediaxr2.jpg
+   (options)
 **2. The Evolution of Music Distribution
 Traditional Distribution Methods
 Gone are the days of physically distributing CDs to music stores or mailing out promotional mixtapes. Traditional music distribution methods involved a lot of legwork and logistics to get an artist's music into the hands of listeners. It was like a musical game of hide and seek, with fans having to hunt down physical copies of their favorite albums.**
@@ -46,7 +51,8 @@ One of the perks of digital platforms is the treasure trove of data they offer. 
 
 Monetization Opportunities
 Digital release platforms also provide artists with various monetization opportunities, from streaming royalties to merchandise sales and ticketing for live shows. These platforms help artists turn their passion into profit, allowing them to sustain and grow their music careers.
-
+.. image:: /images/mediaxr3.jpg
+   (options)
 **4. Benefits for Artists and Labels
 Global Reach and Accessibility
 With digital platforms, artists and labels can expand their reach beyond borders and time zones. No longer confined to local audiences, musicians can now connect with fans from across the globe, creating a truly borderless music community.**
