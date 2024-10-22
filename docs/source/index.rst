@@ -26,6 +26,11 @@ With the digital landscape continually shaping the music industry, the emergence
 Here have sample review and preview for sample documentations :
 .. image:: /images/mediaxr1.jpg
    (options)
+:alt: MediaXR Add combinations Source
+
+.. figure:: mediaxr1.jpg
+
+    MediaXR and Source
 
 **1. Introduction to Digital Music Platforms
 Understanding the Shift to Digital
@@ -35,6 +40,11 @@ Overview of Digital Music Platforms
 Digital music platforms are like your music-loving best friend who always has the latest tunes at their fingertips. These platforms host a vast library of songs, albums, and playlists that can be accessed anytime, anywhere, with just a few taps on your smartphone or clicks on your computer. From Spotify to Apple Music, these platforms offer a virtual stage for artists to showcase their music to a global audience.
 .. image:: /images/mediaxr2.jpg
    (options)
+:alt: MediaXR Add combinations Source
+
+.. figure:: mediaxr1.jpg
+
+    MediaXR and Source
 **2. The Evolution of Music Distribution
 Traditional Distribution Methods
 Gone are the days of physically distributing CDs to music stores or mailing out promotional mixtapes. Traditional music distribution methods involved a lot of legwork and logistics to get an artist's music into the hands of listeners. It was like a musical game of hide and seek, with fans having to hunt down physical copies of their favorite albums.**
@@ -53,6 +63,11 @@ Monetization Opportunities
 Digital release platforms also provide artists with various monetization opportunities, from streaming royalties to merchandise sales and ticketing for live shows. These platforms help artists turn their passion into profit, allowing them to sustain and grow their music careers.
 .. image:: /images/mediaxr3.jpg
    (options)
+:alt: MediaXR Add combinations Source
+
+.. figure:: mediaxr1.jpg
+
+    MediaXR and Source
 **4. Benefits for Artists and Labels
 Global Reach and Accessibility
 With digital platforms, artists and labels can expand their reach beyond borders and time zones. No longer confined to local audiences, musicians can now connect with fans from across the globe, creating a truly borderless music community.**
