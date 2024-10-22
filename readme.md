@@ -1,4 +1,5 @@
 # ᗰOᗪIᖴIᗴᗪ
+[![Documentation Status](https://readthedocs.org/projects/mediaxr/badge/?version=latest)](https://mediaxr.readthedocs.io/en/latest/?badge=latest)
 
  <p>Playing high quality songs, over your web browser, ad-free experience, High-Quality Music upto 320kbps</p>
  
