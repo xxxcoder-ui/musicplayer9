@@ -24,11 +24,11 @@ MediaXR
 With the digital landscape continually shaping the music industry, the emergence of digital platforms for releasing music has revolutionized the way artists and labels distribute their music to audiences worldwide. This article delves into the dynamic realm of digital music platforms, exploring their evolution, key features, benefits for stakeholders, and the transformative impact on the industry. From examining traditional distribution methods to forecasting future trends, this comprehensive guide navigates the intricacies of leveraging digital platforms for successful music releases in the modern era.
 
 Here have sample review and preview for sample documentations :
-.. image:: /images/mediaxr1.jpg
+.. image:: images/mediaxr1.jpg
    (options)
 :alt: MediaXR Add combinations Source
 
-.. figure:: mediaxr1.jpg
+.. figure:: images/mediaxr1.jpg
 
     MediaXR and Source
 
@@ -38,11 +38,11 @@ In a world where CDs and cassettes have become relics of the past, digital music
 
 Overview of Digital Music Platforms
 Digital music platforms are like your music-loving best friend who always has the latest tunes at their fingertips. These platforms host a vast library of songs, albums, and playlists that can be accessed anytime, anywhere, with just a few taps on your smartphone or clicks on your computer. From Spotify to Apple Music, these platforms offer a virtual stage for artists to showcase their music to a global audience.
-.. image:: /images/mediaxr2.jpg
+.. image:: images/mediaxr2.jpg
    (options)
 :alt: MediaXR Add combinations Source
 
-.. figure:: mediaxr1.jpg
+.. figure:: images/mediaxr1.jpg
 
     MediaXR and Source
 **2. The Evolution of Music Distribution
@@ -61,11 +61,11 @@ One of the perks of digital platforms is the treasure trove of data they offer. 
 
 Monetization Opportunities
 Digital release platforms also provide artists with various monetization opportunities, from streaming royalties to merchandise sales and ticketing for live shows. These platforms help artists turn their passion into profit, allowing them to sustain and grow their music careers.
-.. image:: /images/mediaxr3.jpg
+.. image:: images/mediaxr3.jpg
    (options)
 :alt: MediaXR Add combinations Source
 
-.. figure:: mediaxr1.jpg
+.. figure:: images/mediaxr1.jpg
 
     MediaXR and Source
 **4. Benefits for Artists and Labels
