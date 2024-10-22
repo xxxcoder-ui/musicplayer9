@@ -26,7 +26,7 @@ With the digital landscape continually shaping the music industry, the emergence
 Here have sample review and preview for sample documentations :
 .. image:: images/mediaxr1.jpg
    (options)
-:alt: MediaXR Add combinations Source
+MediaXR Add combinations Source
 
 .. figure:: images/mediaxr1.jpg
 
@@ -40,7 +40,7 @@ Overview of Digital Music Platforms
 Digital music platforms are like your music-loving best friend who always has the latest tunes at their fingertips. These platforms host a vast library of songs, albums, and playlists that can be accessed anytime, anywhere, with just a few taps on your smartphone or clicks on your computer. From Spotify to Apple Music, these platforms offer a virtual stage for artists to showcase their music to a global audience.
 .. image:: images/mediaxr2.jpg
    (options)
-:alt: MediaXR Add combinations Source
+MediaXR Add combinations Source
 
 .. figure:: images/mediaxr1.jpg
 
@@ -63,7 +63,7 @@ Monetization Opportunities
 Digital release platforms also provide artists with various monetization opportunities, from streaming royalties to merchandise sales and ticketing for live shows. These platforms help artists turn their passion into profit, allowing them to sustain and grow their music careers.
 .. image:: images/mediaxr3.jpg
    (options)
-:alt: MediaXR Add combinations Source
+MediaXR Add combinations Source
 
 .. figure:: images/mediaxr1.jpg
 
