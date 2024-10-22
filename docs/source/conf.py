@@ -1,4 +1,3 @@
 project = 'MEDIAXR'
-html_theme = "agogo"
-<title>
+<title>XR<title>
 html_favicon = 'static/mediaxr.jpg'
