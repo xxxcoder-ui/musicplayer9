@@ -1,5 +1,7 @@
 .. admonition::
-MediaXR
+MediaXR .. image:: https://readthedocs.org/projects/mediaxr/badge/?version=latest
+    :target: https://mediaxr.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
 
 
 .. toctree::
