@@ -1,6 +1,6 @@
 # ᗰOᗪIᖴIᗴᗪ
 [![Documentation Status](https://readthedocs.org/projects/mediaxr/badge/?version=latest)](https://mediaxr.readthedocs.io/en/latest/?badge=latest)
-
+[![Codespaces Prebuilds](https://github.com/xxxcoder-ui/musicplayer9/actions/workflows/codespaces/create_codespaces_prebuilds/badge.svg?branch=main&event=fork)](https://github.com/xxxcoder-ui/musicplayer9/actions/workflows/codespaces/create_codespaces_prebuilds)
  <p>Playing high quality songs, over your web browser, ad-free experience, High-Quality Music upto 320kbps</p>
  
 ---
@@ -25,6 +25,8 @@ Version : `v3.0` <br>
 - Playlists
 - Song Sharing
 - Lyrics
+- 𝙼𝚞𝚜𝚒𝚌 𝙼𝚒𝚡
+- 𝙼𝚞𝚜𝚒𝚌 𝙿𝚘𝚍𝚌𝚊𝚜𝚝
   
 ## Installation / Usage
 
