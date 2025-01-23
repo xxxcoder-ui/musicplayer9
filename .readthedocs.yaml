@@ -1,22 +1,31 @@
 version: 2
 
+formats:
+  - pdf
+  - epub
+
 sphinx:
   configuration: docs/conf.py
 
+python:
+  install:
+    - requirements: docs/requirements.txt
+
 build:
-  os: "ubuntu-22.04"
+  os: ubuntu-24.04
   tools:
-    python: "3.12"
+    python: "3.13"
     nodejs: "19"
     rust: "1.64"
     golang: "1.19"
-
+    
   jobs:
-    post_checkout:
-      - git fetch --unshallow || true
-      - git config remote.origin.fetch '+refs/heads/*:refs/remotes/origin/*' || true
-      - git fetch --all --tags || true
+    build:
       pdf:
         - sphinx-build -b rinoh docs _build/pdf/
         - mkdir --parents $READTHEDOCS_OUTPUT/pdf/
         - mv _build/pdf/*.pdf $READTHEDOCS_OUTPUT/pdf/
+    post_checkout:
+      - git fetch --unshallow || true
+      - git config remote.origin.fetch '+refs/heads/*:refs/remotes/origin/*' || true
+      - git fetch --all --tags || true
