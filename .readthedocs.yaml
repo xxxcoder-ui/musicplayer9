@@ -1,5 +1,8 @@
 version: 2
 
+sphinx:
+  configuration: docs/conf.py
+
 build:
   os: "ubuntu-22.04"
   tools:
@@ -13,7 +16,3 @@ build:
       - git fetch --unshallow || true
       - git config remote.origin.fetch '+refs/heads/*:refs/remotes/origin/*' || true
       - git fetch --all --tags || true
-
-mkdocs:
-  
-  configuration: mkdocs.yml
