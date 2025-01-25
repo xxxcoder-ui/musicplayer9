@@ -14,7 +14,7 @@ build:
       html:
         - echo "Building HTML"
         - mkdir -p $READTHEDOCS_OUTPUT/html/
-        - echo "MediaXR" > $READTHEDOCS_OUTPUT/html/index.html
+        - echo "MediaXR,With the digital landscape continually shaping the music industry, the emergence of digital platforms for releasing music has revolutionized the way artists and labels distribute their music to audiences worldwide. This article delves into the dynamic realm of digital music platforms, exploring their evolution, key features, benefits for stakeholders, and the transformative impact on the industry. From examining traditional distribution methods to forecasting future trends, this comprehensive guide navigates the intricacies of leveraging digital platforms for successful music releases in the modern era." > $READTHEDOCS_OUTPUT/html/index.html
       pdf:
         - echo "Building PDF"
         - mkdir -p $READTHEDOCS_OUTPUT/pdf/
@@ -22,4 +22,4 @@ build:
       epub:
         - echo "Building ePub"
         - mkdir -p $READTHEDOCS_OUTPUT/epub/
-        - echo "MediaXR" > $READTHEDOCS_OUTPUT/epub/index.epub
+        - echo "MediaXR,With the digital landscape continually shaping the music industry, the emergence of digital platforms for releasing music has revolutionized the way artists and labels distribute their music to audiences worldwide. This article delves into the dynamic realm of digital music platforms, exploring their evolution, key features, benefits for stakeholders, and the transformative impact on the industry. From examining traditional distribution methods to forecasting future trends, this comprehensive guide navigates the intricacies of leveraging digital platforms for successful music releases in the modern era." > $READTHEDOCS_OUTPUT/epub/index.epub
