@@ -11,6 +11,6 @@ mkdocs:
    configuration: mkdocs.yml
 
 # Dependencies required to build your docs
-python:
-   install:
-   - requirements: requirements.txt
+#python:
+#   install:
+#   - requirements: requirements.txt
